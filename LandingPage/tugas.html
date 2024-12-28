@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>RWD Landing Page</title>
+    <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div class="logo">
+                <img src="angsana.png" style="width: 100px; height: 100px;">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Service">Services</a></li>
+                    <li><a href="#Contact">contact</a></li>
+			    </ul>
+            </div>
+            <div class="socials">
+                <a href="#">Signup</a>
+            </div>
+        </nav>
+        <div class="banner-text">
+            <h1>Explore Beautiful<br>places with us</h1>
+            <p>Pengalaman menginap yang mewah, pelayanan terbaik, dan suasana yang tak terlupakan</p>
+            <button type="button">Learn More</button>
+        </div>        
+    </div>
+
+    <!-- Slider gambar -->
+     <section id="About" class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="hotel1.png" alt="">
+                <img id="slide-2" src="hotel2.png" alt="">
+                <img id="slide-3" src="hotel3.png" alt="">
+                <img id="slide-4" src="hotel4.png" alt="">
+                <img id="slide-5" src="hotel5.png" alt="">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+                <a href="#slide-5"></a>
+            </div>
+        </div>
+     </section>
+
+
+    <section style="padding: 20px;">
+        <h2 style="color: #005b96;">About</h2>
+        <p>Di Angsana, kami percaya bahwa setiap momen perjalanan adalah kesempatan untuk menciptakan kenangan yang tak terlupakan. Berlokasi di Bandung, hotel kami dirancang untuk menghadirkan perpaduan sempurna antara kenyamanan, kemewahan, dan keramahan.
+
+            Dengan desain arsitektur modern, fasilitas kelas dunia, dan pelayanan personal yang hangat, kami berkomitmen untuk memenuhi setiap kebutuhan Anda. Baik Anda menginap untuk liburan, perjalanan bisnis, atau acara istimewa, Angsana adalah tempat yang tepat untuk merasakan pengalaman menginap yang luar biasa.
+            
+            Dari kamar yang elegan hingga restoran dengan sajian kuliner terbaik, kami hadir untuk memberikan pengalaman tak tertandingi di setiap kunjungan Anda.
+            
+            Selamat datang di Angsana – rumah kedua Anda di mana keindahan dan kenyamanan berpadu sempurna.
+            </p>
+    </section>
+
+    <!-- Cabang -->
+    <section id="branches" style="padding: 20px;">
+        <h2 id="Service" style="color: #005b96;">Cabang Kami</h2>
+        <ul>
+            <li>Hotel Angsana Jakarta</li>
+            <li>Hotel Angsana Bali</li>
+            <li>Hotel Angsana Surabaya</li>
+        </ul>
+    </section>
+
+    <!-- Promosi -->
+    <section id="promo" style="padding: 20px;">
+        <h2 style="color: #005b96;">Tabel Promosi</h2>
+        <table border="1" style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr style="background-color: #d9d9d9;">
+                    <th>Paket</th>
+                    <th>Harga</th>
+                    <th>Waktu</th>
+                    <th>Syarat & Ketentuan</th>
+                    <th>Deskripsi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Honeymoon</td>
+                    <td>Rp 2.000.000</td>
+                    <td>2 Hari</td>
+                    <td>Pemesanan minimal 1 minggu sebelumnya</td>
+                    <td>Paket spesial untuk pasangan</td>
+                </tr>
+                <tr>
+                    <td>Keluarga</td>
+                    <td>Rp 1.500.000</td>
+                    <td>3 Hari</td>
+                    <td>Minimal 3 orang</td>
+                    <td>Diskon tambahan untuk keluarga</td>
+                </tr>
+                <tr>
+                    <td>Liburan</td>
+                    <td>Rp 1.200.000</td>
+                    <td>2 Hari</td>
+                    <td>Tidak berlaku di akhir pekan</td>
+                    <td>Termasuk sarapan</td>
+                </tr>
+                <tr>
+                    <td>Bisnis</td>
+                    <td>Rp 1.800.000</td>
+                    <td>1 Hari</td>
+                    <td>Booking online</td>
+                    <td>Fasilitas ruang meeting</td>
+                </tr>
+                <tr>
+                    <td>Deluxe</td>
+                    <td>Rp 3.000.000</td>
+                    <td>2 Hari</td>
+                    <td>Termasuk sarapan & makan malam</td>
+                    <td>Kamar deluxe dengan pemandangan terbaik</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Form Kontak -->
+    <section id="Contact" style="padding: 20px;">
+        <h2 style="color: #005b96;">Contact</h2>
+        <form>
+            <label for="name">Nama:</label><br>
+            <input type="text" id="name" name="name" style="width: 100%;"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" style="width: 100%;"><br><br>
+            <label for="message">Pesan:</label><br>
+            <textarea id="message" name="message" rows="4" style="width: 100%;"></textarea><br><br>
+            <button type="submit" style="background-color: #005b96; color: white; padding: 10px 20px; border: none;">Kirim</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #005b96; color: white; text-align: center; padding: 10px;">
+        <p>&copy; 2024 Hotel Mewah Angsana. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
